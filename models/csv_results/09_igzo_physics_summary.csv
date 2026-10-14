@@ -1,0 +1,10 @@
+Parameter,Value,Unit,Description
+avg_potentiation_step,0.00741412,normalized,Avg conductance increase per pulse
+avg_depression_step,-0.03409907,normalized,Avg conductance decrease per pulse
+pd_asymmetry_ratio,0.2174,ratio,Potentiation / Depression step ratio
+dep_compensation_factor,0.2174,x,Applied to balance P/D
+n_conductance_states,198,count,Discrete levels in IGZO device
+vgs_min,0.0000,V,Min gate voltage
+vgs_max,0.0000,V,Max gate voltage
+train_accuracy,95.3400,%,Training accuracy (10k samples)
+test_accuracy,95.7300,%,Test accuracy (10k samples)

@@ -1,0 +1,9 @@
+Aspect,Original,Improved
+Architecture,784-256-10,784-512-256-10
+Hidden_Layers,1,2
+PD_Compensation,None,0.2x
+LR_Schedule,Fixed,Cosine decay
+Augmentation,No,Yes
+Early_Stopping,No,patience=15
+Test_Acc_%,88.77,95.73
+Gain_%,0,6.96
